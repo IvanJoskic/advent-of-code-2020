@@ -16,10 +16,6 @@ try:
         for letter in uniqueAnswers:
             if answers.count(letter) == numOfPeople:
                 totalB += 1
-                # print(group, numOfPeople, letter, '\n')
-            else:
-                print(group, numOfPeople, letter, '\n')
-
     print("Total number of answers anyone said 'Yes' to: " + str(totalA))
     print("Total number of answers everyone said 'Yes' to: " + str(totalB))
 finally:
